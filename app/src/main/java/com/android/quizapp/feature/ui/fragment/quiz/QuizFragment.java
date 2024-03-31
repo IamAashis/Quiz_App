@@ -1,7 +1,7 @@
 package com.android.quizapp.feature.ui.fragment.quiz;
 
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,30 +40,12 @@ public class QuizFragment extends Fragment {
     }
 
     public void setup(){
-        Log.d("indexCheck", "" + questionIndex);
         binding.txvQuestion.setText(questionTitle);
         binding.prbProgressBarQuestion.setProgress(questionIndex);
         int totalQuestion = 10;
         binding.txvQuestionNumber.setText(getString(R.string.question, questionIndex, totalQuestion));
         setClickListenerAnswer();
         initRecyclerView();
-        checkQuizCompletion();
-        iniListener();
-    }
-
-    public void iniListener(){
-     /*   binding.btnSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((MainActivity) getActivity()).quizSubmit();
-            }
-        });*/
-    }
-
-    public void checkQuizCompletion(){
-//        if(questionIndex == 10){
-//            binding.btnSubmit.setVisibility(View.VISIBLE);
-//        }
     }
 
     public void setQuestionTitle(String questionTitle) {

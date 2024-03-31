@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
         int currentPageIndex =  binding.vwpQuestions.getCurrentItem();
         checkPoint(quizAnswer, currentPageIndex);
         binding.vwpQuestions.setCurrentItem(currentPageIndex += 1);
-        if(currentPageIndex == 9){
+        if(currentPageIndex == 10){
             quizSubmit();
         }
     }
