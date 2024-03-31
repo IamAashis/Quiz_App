@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question">Question %d / %d</string>
+    <string name="totalPoints">Your score was %d points</string>
+    <string name="takeAnotherShot">Take another shot</string>
+    <string name="score">Score</string>
+    <string name="submit">submit</string>
+    <string name="questionTitle">This is Question Title</string>
+    <string name="wellPlayed">Well Played %s</string>
+    <string name="fullName">Full Name</string>
+    <string name="errorGettingData">Error while getting data</string>
+    <string name="noDataAvailable">No Data Available</string>
+</resources>
