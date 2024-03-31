@@ -59,21 +59,21 @@ dependencies {
     kapt( "com.google.dagger:hilt-compiler:2.44.2")
 
     // Lifecycle components
-    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.3.1")
-    implementation ("androidx.lifecycle:lifecycle-livedata:2.3.1")
-    implementation ("androidx.lifecycle:lifecycle-common-java8:2.3.1")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.7.0")
+    implementation ("androidx.lifecycle:lifecycle-livedata:2.7.0")
+    implementation ("androidx.lifecycle:lifecycle-common-java8:2.7.0")
 
     // Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation ("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.11.0")
 
     // Room components
-    implementation ("androidx.room:room-runtime:2.3.0")
-    annotationProcessor  ("androidx.room:room-compiler:2.3.0")
-    androidTestImplementation ("androidx.room:room-testing:2.3.0")
+    implementation ("androidx.room:room-runtime:2.6.1")
+    annotationProcessor  ("androidx.room:room-compiler:2.6.1")
+    androidTestImplementation ("androidx.room:room-testing:2.6.1")
 
-    kapt("androidx.room:room-compiler:2.3.0")
+    kapt("androidx.room:room-compiler:2.6.1")
     implementation ("com.facebook.shimmer:shimmer:0.5.0")
 
 }
